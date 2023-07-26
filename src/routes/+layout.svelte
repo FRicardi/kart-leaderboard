@@ -3,7 +3,11 @@
 
  onMount(async () => {
      await import('@ui5/webcomponents-fiori/dist/ShellBar');
-     await import('@ui5/webcomponents/dist/list.js')
+     await import('@ui5/webcomponents/dist/list.js');
+     await import("@ui5/webcomponents/dist/Assets.js");
+     await import("@ui5/webcomponents-fiori/dist/Assets.js");
+     let theme = await import('@ui5/webcomponents-base/dist/config/Theme.js');
+     theme.setTheme("sap_horizon");
  })
 
 </script>
@@ -16,3 +20,5 @@
         Leaderboard
     </ui5-li>
 </ui5-shellbar>
+
+<slot />
