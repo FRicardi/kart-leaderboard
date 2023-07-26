@@ -428,7 +428,7 @@
     "@typescript-eslint/types" "5.62.0"
     eslint-visitor-keys "^3.3.0"
 
-"@ui5/webcomponents-base@1.15.1":
+"@ui5/webcomponents-base@1.15.1", "@ui5/webcomponents-base@^1.15.1":
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/@ui5/webcomponents-base/-/webcomponents-base-1.15.1.tgz#9114502c41badb5e78216f09366cb3caa7a6871a"
   integrity sha512-CXf8ctW5cSlxReLg0EMPWyCSYaCuOhicVz3y0L6x4QlEhXHC1sOqul+wCjQ+Hr1AJOCufL/ZANWfG+NgqI1IgA==

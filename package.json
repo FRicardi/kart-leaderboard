@@ -30,6 +30,7 @@
 	"type": "module",
 	"dependencies": {
 		"@ui5/webcomponents": "^1.15.1",
+		"@ui5/webcomponents-base": "^1.15.1",
 		"@ui5/webcomponents-fiori": "^1.15.1"
 	}
 }
