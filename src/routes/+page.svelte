@@ -2,8 +2,9 @@
 	import { onMount } from 'svelte';
 	import DriverLeaderboard from '../components/driver-leaderboard.svelte';
 	import DriverDetails from '../components/driver-details.svelte';
+    import RaceDetails from '../components/race-details.svelte';
 
-	let leaderboard, driverId;
+	let leaderboard, driverId, raceId;
 
 	onMount(async () => {
 		await import('@ui5/webcomponents-fiori/dist/FlexibleColumnLayout.js');
@@ -13,6 +14,12 @@
 
 			leaderboard.layout = 'TwoColumnsMidExpanded';
 		});
+
+		leaderboard.addEventListener('race-details', (event) => {
+			raceId = event.detail.raceId;
+
+			leaderboard.layout = "ThreeColumnsEndExpanded";
+		})
 	});
 </script>
 
@@ -21,7 +28,10 @@
 		<DriverLeaderboard parentElement={leaderboard} />
 	</div>
 	<div class="col" slot="midColumn">
-		<DriverDetails {driverId} />
+		<DriverDetails {driverId} parentElement={leaderboard} />
+	</div>
+	<div class="col" slot="endColumn">
+		<RaceDetails {raceId} />
 	</div>
 </ui5-flexible-column-layout>
 
