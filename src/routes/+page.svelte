@@ -1,8 +1,8 @@
 <script>
 	import { onMount } from 'svelte';
-	import DriverLeaderboard from '../components/driver-leaderboard.svelte';
-	import DriverDetails from '../components/driver-details.svelte';
-    import RaceDetails from '../components/race-details.svelte';
+	import DriverLeaderboard from '../components/drivers/driver-leaderboard.svelte';
+	import DriverDetails from '../components/drivers/driver-details.svelte';
+    import RaceDetails from '../components/races/race-details.svelte';
 
 	let leaderboard, driverId, raceId;
 

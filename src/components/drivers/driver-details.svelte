@@ -1,6 +1,6 @@
 <script>
  import { onMount } from 'svelte';
- import RaceCard from './race-card.svelte';
+ import RaceCard from '../races/race-card.svelte';
 
  onMount(async () => {
 	 await import('@ui5/webcomponents/dist/Title');
