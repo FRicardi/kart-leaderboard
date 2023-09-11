@@ -435,6 +435,13 @@
   dependencies:
     lit-html "^2.0.1"
 
+"@ui5/webcomponents-base@1.16.0":
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-base/-/webcomponents-base-1.16.0.tgz#b5a5630cbf4e3f78d282af7f22dd3886cfd200cc"
+  integrity sha512-W5OAsgWMLT93ry72f9CHZGaHKxaZl//DbMBksQtxLGLSEIoqCMIW6JU94wpFyAfpIpwsWIwF5Dlxa3UZRPElnA==
+  dependencies:
+    lit-html "^2.0.1"
+
 "@ui5/webcomponents-fiori@^1.15.1":
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/@ui5/webcomponents-fiori/-/webcomponents-fiori-1.15.1.tgz#3601c85fe9729ee0946d4447a33e600db05f1b23"
@@ -446,12 +453,33 @@
     "@ui5/webcomponents-theming" "1.15.1"
     "@zxing/library" "^0.17.1"
 
+"@ui5/webcomponents-icons-business-suite@^1.16.0":
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-icons-business-suite/-/webcomponents-icons-business-suite-1.16.0.tgz#5b6702fdf5e5b78b4d571a78f481c1e0f120cb4d"
+  integrity sha512-2EJhZNNJUKxhJpXXFTOQnHPFKbBtXwR3MQtzO6uzE6c+YfEygE5EGBnKvkdrjbTGPNs1ZCi6krG5OUVH+4vsAg==
+  dependencies:
+    "@ui5/webcomponents-base" "1.16.0"
+
+"@ui5/webcomponents-icons-tnt@^1.16.0":
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-icons-tnt/-/webcomponents-icons-tnt-1.16.0.tgz#a98c72b0a6a536718765d3add0ed6e744102a38f"
+  integrity sha512-ElU5QIvqXIJk790g6fAHXSzrbNI/+XFS77fLSyXbac00iYZ4jvnmZqASHgid0uyg/I5iVYTjGVxe0aqlfVfE8Q==
+  dependencies:
+    "@ui5/webcomponents-base" "1.16.0"
+
 "@ui5/webcomponents-icons@1.15.1":
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/@ui5/webcomponents-icons/-/webcomponents-icons-1.15.1.tgz#99fabd12ca29953287096ee1ff478a70bff88260"
   integrity sha512-dn0yv9AsDK/+uRuS8XBlLjpMRPDM8EmL+jJL27Xm2eJLFlOMc0fKCbKc/LgOkYAKt+tdpX/2stYrrL72/71/kA==
   dependencies:
     "@ui5/webcomponents-base" "1.15.1"
+
+"@ui5/webcomponents-icons@^1.16.0":
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/@ui5/webcomponents-icons/-/webcomponents-icons-1.16.0.tgz#01e5ed4568ca8ef3e412274e90e94cb0f67249cb"
+  integrity sha512-sJIRpsUR7VtWL7E6vNeMrt2p7XIBrCH/WJlaAtnMVvBMcuU+3dwIeOCEr+yYVCb3QMo6ajsaUQLWkQUaRFVS3Q==
+  dependencies:
+    "@ui5/webcomponents-base" "1.16.0"
 
 "@ui5/webcomponents-localization@1.15.1":
   version "1.15.1"
